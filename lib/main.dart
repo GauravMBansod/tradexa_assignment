@@ -108,12 +108,12 @@ class _MyHomePageState extends State<MyHomePage> {
           Positioned(
             top: 30.0,
             child: SizedBox(
-              width: width,
+              width: width * 0.95,
               child: Card(
                 elevation: 8.0,
                 child: Padding(
                   padding: const EdgeInsets.only(
-                      left: 135.0, right: 8.0, top: 8.0, bottom: 8.0),
+                      left: 120.0, right: 8.0, top: 8.0, bottom: 8.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
