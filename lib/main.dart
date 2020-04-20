@@ -113,14 +113,14 @@ class _MyHomePageState extends State<MyHomePage> {
                 elevation: 8.0,
                 child: Padding(
                   padding: const EdgeInsets.only(
-                      left: 120.0, right: 8.0, top: 8.0, bottom: 8.0),
+                      left: 135.0, right: 8.0, top: 8.0, bottom: 8.0),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
                       Text(
                         searchedMovie.title,
                         style: TextStyle(
-                            fontSize: 18.0, fontWeight: FontWeight.bold),
+                            fontSize: 16.0, fontWeight: FontWeight.bold),
                       ),
                       Text(
                         'Type : ${searchedMovie.type}',
@@ -130,11 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         'Year : ${searchedMovie.year}',
                         style: TextStyle(fontSize: 16.0),
                       ),
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.start,
-                        crossAxisAlignment: CrossAxisAlignment.center,
-                        children: <Widget>[ratingStarBar()],
-                      )
+                      ratingStarBar()
                     ],
                   ),
                 ),
@@ -145,8 +141,8 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Column(
             children: <Widget>[
               SizedBox(
-                height: 128,
-                width: 96,
+                height: 120,
+                width: 90,
                 child: Padding(
                   padding: const EdgeInsets.only(left: 10),
                   child: Card(
