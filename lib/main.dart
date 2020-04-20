@@ -108,7 +108,7 @@ class _MyHomePageState extends State<MyHomePage> {
           Positioned(
             top: 30.0,
             child: SizedBox(
-              width: width * 0.95,
+              width: width * 0.90,
               child: Card(
                 elevation: 8.0,
                 child: Padding(
